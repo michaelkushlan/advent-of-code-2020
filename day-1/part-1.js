@@ -1,7 +1,7 @@
 import { getTextArrayInputFromFile } from '../datasets/utils.js'
 
 const part1Solution = () => {
-  const textArray = getTextArrayInputFromFile('./datasets/day-1-part-1')
+  const textArray = getTextArrayInputFromFile('./datasets/day-1')
 
   for (const value1 of textArray) {
     const num1 = parseInt(value1)
