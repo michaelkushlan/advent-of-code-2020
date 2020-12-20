@@ -2,7 +2,7 @@ import * as R from 'ramda'
 
 import { getTextArrayInputFromFile } from '../datasets/utils.js'
 
-const part1Solution = () => {
+const part2Solution = () => {
   const textArray = getTextArrayInputFromFile('./datasets/day-3')
   const treeMap = textArray.map((text) => text.split(''))
 
@@ -37,7 +37,7 @@ const part1Solution = () => {
 }
 
 ;(() => {
-  const solution = part1Solution()
+  const solution = part2Solution()
 
   console.log('Day 3 part 2 solution: ', solution)
 })()
