@@ -9,11 +9,7 @@ const part1Solution = () => {
     for (const value2 of textArray) {
       const num2 = parseInt(value2)
 
-      for (const value3 of textArray) {
-        const num3 = parseInt(value3)
-
-        if (num1 + num2 + num3 === 2020) return num1 * num2 * num3
-      }
+      if (num1 + num2 === 2020) return num1 * num2
     }
   }
 }
