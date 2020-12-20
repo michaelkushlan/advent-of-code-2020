@@ -2,7 +2,7 @@ import * as R from 'ramda'
 
 import { getTextArrayInputFromFile } from '../datasets/utils.js'
 
-const part1Solution = () => {
+const part2Solution = () => {
   const textArray = getTextArrayInputFromFile('./datasets/day-2')
 
   const passwordWithPolicyInformation = textArray.map((entry) => {
@@ -35,7 +35,7 @@ const part1Solution = () => {
 }
 
 ;(() => {
-  const solution = part1Solution()
+  const solution = part2Solution()
 
   console.log('Day 2 part 2 solution: ', solution)
 })()
