@@ -43,5 +43,5 @@ const solution = () => {
 ;(() => {
   const result = solution()
 
-  console.log('Day 5 part 1 solution: ', result)
+  console.log('Day 5 part 2 solution: ', result)
 })()
