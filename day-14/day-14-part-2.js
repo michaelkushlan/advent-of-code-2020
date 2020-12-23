@@ -79,5 +79,5 @@ const solution = () => {
 ;(() => {
   const result = solution()
 
-  console.log('Day 14 part 1 solution: ', result)
+  console.log('Day 14 part 2 solution: ', result)
 })()
